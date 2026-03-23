@@ -1,4 +1,3 @@
-```gitignore
 # Python
 __pycache__/
 *.pyc
@@ -6,6 +5,7 @@ __pycache__/
 *.pyd
 
 # Virtual environment
+.venv/
 venv/
 .env/
 
@@ -16,5 +16,20 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Optional temporary files
+# Logs
 *.log
+
+# Ignore full dataset
+data/ds004147/
+
+# Ignore generated outputs but keep structure
+outputs/*
+!outputs/.gitkeep
+!outputs/figures/
+!outputs/results/
+!outputs/sanity_checks/
+!outputs/logs/
+!outputs/figures/.gitkeep
+!outputs/results/.gitkeep
+!outputs/sanity_checks/.gitkeep
+!outputs/logs/.gitkeep

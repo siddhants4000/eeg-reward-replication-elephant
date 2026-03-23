@@ -31,7 +31,6 @@ The two main scripts to run are:
 eeg_reward_replication_elephant/
 │
 ├── data/
-│   └── ds004147/
 │
 ├── scripts/
 │   ├── __init__.py
